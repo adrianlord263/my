@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect } from 'react';
-import { SettingsProvider, useLauncherSettings } from '@/hooks/use-launcher-settings';
+import { useLauncherSettings } from '@/hooks/use-launcher-settings';
+import { SettingsProvider } from '@/components/settings-provider';
 import { HomeScreenGrid } from '@/components/home-screen-grid';
 import { Dock } from '@/components/dock';
 import { ClockWidget } from '@/components/clock-widget';
